@@ -1,0 +1,52 @@
+body{
+    margin: auto 0;
+    font-family: 'Ubuntu';
+}
+#logolar{
+    height: 60px;
+    background-color: rgb(86, 86, 133);
+}
+#content{
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid rgb(91, 91, 138);
+    border-bottom: 5px solid rgb(91, 91, 138);
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+.top-nav{
+    background-color: rgb(91, 91, 138);
+    overflow: hidden;
+    width: 100%;
+}
+
+.top-nav ul{
+    margin: auto;
+    margin-left: 0;
+    -webkit-padding-start: 0;
+}
+
+.top-nav ul li{
+    list-style-type: none;
+    float: left;
+}
+
+.top-nav ul li a{
+    border: none;
+    border-top: 2px solid transparent;
+    float: left;
+    text-decoration: none;
+    padding: 18px 16px;
+    background-color: rgb(91, 91, 138);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Ubuntu';
+}
+
+.top-nav ul li a:hover{
+    border-top: 2px solid white;
+    background: rgb(99, 99, 145);
+}
